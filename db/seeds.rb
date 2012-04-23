@@ -5,3 +5,6 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+Location.create(name: 'Location to be determined') #run rake db:setup or rake db:seed to seed db
+# with default data, since location is a required attribute in event.rb.
