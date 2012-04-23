@@ -4,4 +4,5 @@ class Event < ActiveRecord::Base
   has_many :users, :through => :volunteerRsvps
   validates_presence_of :title
   validates_presence_of :date
+  validates_presence_of :location
 end
